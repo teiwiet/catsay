@@ -1,3 +1,3 @@
-## Cat say :blush:
+## Cat say :nose:
 
 - Usage : cat_say [options] 
