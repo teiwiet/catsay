@@ -3,9 +3,9 @@ use structopt::StructOpt;
 
 #[derive(StructOpt)]
 struct Options{
-    #[structopt(default_value = "Meow!")]
-    ///what does the cat say ?
     message : String,
+    #[structopt(short="d",long = "dead")]
+    dead : bool
 }
 
 
