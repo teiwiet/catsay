@@ -1,3 +1,3 @@
-## Cat say :smirk_cat: 
+## Cat say :smiley_cat: 
 
-- Usage : cat_say [options] 
+- Usage : cat_say [options] <message>

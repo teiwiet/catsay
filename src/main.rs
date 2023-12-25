@@ -14,10 +14,20 @@ fn main(){
     let message = options.message;
     // let mut args : Vec<String> = env::args().collect();
     // println!("{}", args[1]);
+    if message.to_lowercase() == "woof"{
+        eprintln!(":-))");
+        return
+    }
+    let eye = if options.dead {
+        "x"
+    }
+    else {
+        "O"
+    };
     println!("{}", message);
     println!(" \\");
     println!(" \\");
     println!("  /\\_/\\");
-    println!(" ( o o )");
+    println!(" ( {eye} {eye} )");
     println!(" =( I )=");
 }
